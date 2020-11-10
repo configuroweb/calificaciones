@@ -48,7 +48,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
             <div class="">
                 <div class="row">
- <h1 align="center">Sistema Web en PHP y MySQL para calificaciones de alumnos en línea</h1>
+ <h1 align="center">*** Calificaciones de Alumnos en Línea ***</h1>
                     <div class="col-lg-6 visible-lg-block">
 
 <section class="section">
@@ -106,13 +106,13 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                             <div class="panel">
                                                 <div class="panel-heading">
                                                     <div class="panel-title text-center">
-                                                        <h4>Acceso Admin</h4>
+                                                        <h4><a href="find-result.php">Ver Resultados de Estudiante</a></h4>
                                                     </div>
                                                 </div>
                                                 <div class="panel-body p-20">
 
                                                     <div class="section-title">
-                                                        <p class="sub-title">Sistema Web en PHP y MySQL para calificaciones de alumnos en línea
+                                                        <p class="sub-title">Acceso Administrador
 </p>
                                                     </div>
 
@@ -120,13 +120,13 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                     	<div class="form-group">
                                                     		<label for="inputEmail3" class="col-sm-2 control-label">Usuario</label>
                                                     		<div class="col-sm-10">
-                                                    			<input type="text" name="username" class="form-control" id="inputEmail3" placeholder="UserName">
+                                                    			<input type="text" name="username" class="form-control" id="inputEmail3" placeholder="Usuario Admin">
                                                     		</div>
                                                     	</div>
                                                     	<div class="form-group">
                                                     		<label for="inputPassword3" class="col-sm-2 control-label">Clave</label>
                                                     		<div class="col-sm-10">
-                                                    			<input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                                    			<input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
                                                     		</div>
                                                     	</div>
 
